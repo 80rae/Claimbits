@@ -1,15 +1,5 @@
-# Claimbits
-Claimbits Faucet Script FREE
+# Claimbits 2026
 
-### This script shared by 4SE Dev / NewToki
+Attempted redesign of the old Claimbits faucet & PTC script. Backdoor exploit is removed from the old cracked version.
 
-DEMO : http://claimbits.net/ (300$ original price)
-
-
-Feel free to purchase other script on 
-
-Telegram : https://t.me/foursedev
-
-Donation : 
-
-TRX : TWpdGKAThHYzEUJusvkA18ZNiDAh2mfXa9
+Very much a work in progress.

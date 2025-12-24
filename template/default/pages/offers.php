@@ -56,6 +56,11 @@
 				$offer_wall = '<iframe src="https://theoremreach.com/respondent_entry/direct?api_key='.$ow_config['tr_key'].'&user_id='.$data['id'].'" style="width:100%;height:690px;border:0;border-radius:5px;"></iframe>';
 			}
 			break;
+		case 'bitcotasks' :
+           $title = 'BitcoTasks';
+           $offer_wall = '<iframe src="https://bitcotasks.com/offerwall/YOUR API KEY/'.$data['id'].'" style="width:100%;height:690px;border:0;border-radius:5px;"></iframe>';
+            break;
+
 		case 'kiwiwall' :
 			if(!empty($ow_config['kiwiwall_id'])) {
 				$title = 'KiwiWall';
@@ -159,6 +164,7 @@
 					</div>
 					<div class="infobox mb-2 text-center">
 						<a href="<?php echo GenerateURL('offers&x=bitswall'); ?>" class="btn btn-secondary mb-1<?php echo ($method == 'bitswall' ? ' active' : ''); ?>">BitsWall</a>
+						<a href="<?php echo GenerateURL('offers&x=bitcotasks'); ?>" class="btn btn-secondary mb-1<?php echo ($method == 'BitcoTasks' ? ' active' : ''); ?>">BitcoTasks</a>
 						<a href="<?php echo GenerateURL('offers&x=wannads'); ?>" class="btn btn-secondary mb-1<?php echo ($method == 'wannads' ? ' active' : ''); ?>">Wannads</a>
 						<a href="<?php echo GenerateURL('offers&x=adgem'); ?>" class="btn btn-secondary mb-1<?php echo ($method == 'adgem' ? ' active' : ''); ?>">AdGem</a>
 						<a href="<?php echo GenerateURL('offers&x=offertoro'); ?>" class="btn btn-secondary mb-1<?php echo ($method == 'offertoro' ? ' active' : ''); ?>">OfferToro</a>
